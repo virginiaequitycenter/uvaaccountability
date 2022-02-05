@@ -300,6 +300,8 @@ reactable(legend,
 ```
 </details>
 
+### End notes
+
 [^1]: Following the work of the Orange Dot report, in this initial draft we define the Charlottesville region as the city of Charlottesville, Albemarle County, Buckingham County, Fluvanna County, Greene County, Louisa County, and Nelson County. This can be altered in accord with the consensus of the working groups.
 
 [^2]: Estimates of the number and percent of families with incomes below $35,000 are based on American Community Survey 5-year estimates. The 2005-2009 estimates are used for the 2009 measure, 2006-2010 estimates are used for the 2010 measure, and so on. The U.S Census Bureau discourages making over time comparisons based on data with overlapping estimates ([see here for more](https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_general_handbook_2020_ch04.pdf)) to infer change, as the estimates are based much of the same data. We would refrain from making inferential statements about trends from year to year, but can use them to understand longer-term (e.g., 10-year) changes. Alternatively, we could choose to use the ACS 1-year estimates for the Charlottesville Metropolitian Statistical Area which includes the city of Charlottesville, Albemarle County, Fluvanna County, Greene County, and Nelson County but **not** Louisa County which is part of the regional planning district (or Buckingham County, which is not part of the regional planning district).
