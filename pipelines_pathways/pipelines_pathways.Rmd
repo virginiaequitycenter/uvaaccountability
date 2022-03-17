@@ -235,7 +235,9 @@ reactable(status,
               },
               # And left-align the columns
               align = "left"
-          )
+          ),
+          
+          `Accountable Organization` = colDef(align = "center")
           ),
           
           # if there additional activities, make row expandable
