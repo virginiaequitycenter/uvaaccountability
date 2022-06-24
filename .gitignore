@@ -3,3 +3,5 @@ example/
 *.Rhistory
 *.DS_Store
 .Rproj.user/
+*.zip
+*.csv
