@@ -105,3 +105,20 @@ count(pva_cvl, NATIVITY) # 2=yes
 # next steps: need to review
 # survey: https://cran.r-project.org/web/packages/survey/index.html 
 # srvyr: https://github.com/gergness/srvyr
+
+# Most useful examples
+# https://walker-data.com/tidycensus/articles/pums-data.html
+# https://ldaly.github.io/giveinandblogit/
+# http://gdfe.co/srvyr/articles/srvyr-vs-survey.html
+
+# Can use initial pwgtp for estimates, but we should provide error estimates, so...
+
+# 0. May be worth using get_pums to pull JUST the key variables above?
+#   PERNP/WAGP/ADJINC, ESR/WKHP/WKWN/AGEP/SCH, SEX, RAC1P/HISP (or binaries), SCHL, DIS (or binaries), ENG/LANX
+
+# 1. set up srvyr object 
+#   srvyr::as_survey_rep() OR
+#   tidycensus::to_survey() - vars may not be named as the to_survey() expects without using get_pums()?
+
+# 2. use survey_count, survey_total, survey_prop, survey_mean, survey_median, etc.
+#     with dplyr (filter, summarize)

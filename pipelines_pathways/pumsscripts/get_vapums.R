@@ -19,7 +19,7 @@
 # ..............................................
 # 0. Set up ----
 library(tidyverse)
-# library(tidycensus)
+library(tidycensus)
 
 
 # ..............................................
@@ -28,21 +28,13 @@ library(tidyverse)
 # 
 # va_pums5_2020 <- get_pums(
 #   state = "VA",
-#   puma = c("51089", "50190"),
-#   #variables = c("PUMA", "SEX", "AGEP", "SCHL"),
+#   puma = c(51089, 50190),
 #   survey = "acs5",
+#   variables = c("PUMA", "SEX", "AGEP", "SCHL"),
 #   year = 2020
 # )
 # 
-# # do I have to provide vars? still doesn't work...
-# 
-# va_pums1_2019 <- get_pums(
-#   state = "VA",
-#   puma = c("51089", "50190"),
-#   #variables = c("PUMA", "SEX", "AGEP", "SCHL"),
-#   survey = "acs1",
-#   year = 2019
-# )
+# # doesn't work with puma set to multiple; works to download entire state with no pumas specified
 
 
 # ..............................................
